@@ -1,0 +1,63 @@
+/* основной цвет текста черный #212121 */
+/* акцент #2196F3 синий */
+/* второстипенный цвет серый #757575 */
+/* бэграунд НАША КОМАНДА #F5F4FA */
+body {
+  background-color: #fff;
+  color: #757575;
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  color: #2196f3;
+}
+/* site nav */
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+/* gmail and tel */
+.site-mail a {
+  color: #2196f3;
+}
+.site-tel a {
+  color: #757575;
+}
+
+.button {
+  background-color: #2f303a;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+}
+.text-button {
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/* section */
+.section-title {
+  color: #212121;
+}
+/* button */
+.button-title {
+  color: #ffffff;
+}
