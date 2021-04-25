@@ -2,6 +2,9 @@
 /* акцент #2196F3 синий */
 /* второстипенный цвет серый #757575 */
 /* бэграунд НАША КОМАНДА #F5F4FA */
+
+
+
 :root {
   --primary-text-color  #757575
   --title-text-color #212121
@@ -11,7 +14,7 @@
 
 body {
   background-color: #fff;
-  color: #757575;
+  color: #757575
 }
 
 ul {
@@ -30,6 +33,10 @@ ul {
   color: #2196f3;
 }
 
+.site-nav .link.current {
+  color:#2196f3 ;
+}
+
 /* gmail and tel */
 .site-mail a {
   color: #2196f3;
@@ -44,27 +51,16 @@ ul {
 .adress {
   color: #f50606;
 }
-/* .button {
-  background-color: #2f303a;
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
+
+/* button */
+.button {
+  background-color: #2196F3 ;
+  color: #ffffff
 }
-.text-button {
-  position: absolute;
-  width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 280px;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 60px;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #ffffff;
-} */
+.button.primary {
+  background-color: #F5F4FA;
+  color: #212121
+}
+
 
 
