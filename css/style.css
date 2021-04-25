@@ -1,16 +1,14 @@
-
 :root {
-  --primary-text-color  #757575
-  --title-text-color #212121
-  --accent-color #2196F3
-} 
-
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
 
 body {
-  color: #757575;
   background-color: #ffffff;
-
-  font-family: Roboto,  
+  font-family: Roboto; 
+  color: var(--primary-text-color) ; 
+  
 }
 
 ul {
@@ -18,45 +16,97 @@ ul {
 }
 
 .logo {
-  color: #2196f3;
+  font-family: Raleway;
+  color: var(--accent-color);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2px;
 }
 /* site nav */
 .site-nav .link {
-  color: #212121;
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .site-nav .link.current {
-  color:#2196f3 ;
+  color: var(--accent-color);
 }
 
 /* gmail and tel */
 .site-mail a {
-  color: #2196f3;
+  color: var(--accent-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
 }
 .site-tel a {
-  color: #757575;
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
 }
 /* section */
 .section-title {
-  color: #212121;
+  color: var(--title-text-color);
+  font-size: 36px;
+  line-height: 1.16px;
+  text-align: center;
+
+}
+
+.feature-list .title{
+  color: var(--title-text-color); 
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14px;
+  
+
+
+}
+
+
+.name-title {
+color: var(--title-text-color);
+
 }
 .adress {
   color: #f50606;
 }
 
 /* button */
+.button-text {
+  color: #black;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.16px;
+  text-align: center;
+ 
+}
+/* .bgc-button {
+  background-color: #2F303A;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+} */
+
+
+
 .button {
-  background-color: #2196F3 ;
-  color: #ffffff
+  background-color: var(--accent-color)
+  color: #ffffff;
 }
 .button.primary {
-  background-color: #F5F4FA;
-  color: #212121
+  background-color: #f5f4fa;
+  color: var(--title-text-color)
 }
-
-
-
