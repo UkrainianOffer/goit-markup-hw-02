@@ -1,13 +1,46 @@
-/* :root {
+/* * :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
+} */
+body {
+  color: #757575;
+}
+ul {
+  list-style: none;
 }
 
-.logo { */
-/* font-family: Raleway;
-  color: var(--accent-color);
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.2px;
-} */
+.nav-link {
+  color: #212121;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
+  color: #2196f3;
+}
+
+.post {
+  background: #757575;
+}
+.post-title {
+  color: #ffffff;
+}
+
+.section {
+}
+.section-list {
+  color: #212121;
+}
+
+.subtitle {
+  color: #212121;
+}
+
+.team-list {
+  color: #212121;
+}
+
+.name-list {
+  color: #212121;
+}
