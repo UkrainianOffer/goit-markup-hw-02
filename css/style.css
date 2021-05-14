@@ -9,6 +9,7 @@
 body {
   background-color: #ffffff;
   color: var(--primary-text-color);
+  font-family: roboto, sans-serif;
 }
 ul {
   list-style: none;
@@ -17,6 +18,7 @@ ul {
 /* loogotip */
 .logo {
   color: var(--accent-color);
+  font-family: raleway;
 }
 
 /* site-nav */
@@ -30,9 +32,30 @@ ul {
   color: var(--accent-color);
 }
 
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* contacts */
+.contacts {
+  color: var(--primary-text-color);
+}
+
+.contacts-list {
+  color: var(--primary-text-color);
+}
+
+.contacts-list:hover {
+  color: var(--accent-color);
+}
+
 /* hero */
+.hero {
+  background-color: #2f303a;
+}
+
 .hero-title {
-  color: aqua;
+  color: #ffffff;
 }
 
 /* features list */
@@ -65,7 +88,18 @@ ul {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
-.button-secondary {
+.button.secondary {
   color: var(--title-text-color);
   background-color: var(--primary-bgc-color);
+}
+.button.secondary:hover {
+  color: var(--accent-color);
+}
+
+.adress {
+  color: #ffffff;
+}
+
+.footer {
+  background-color: #2f303a;
 }
