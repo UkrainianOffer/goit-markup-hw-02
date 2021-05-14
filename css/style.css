@@ -18,7 +18,7 @@ ul {
 /* loogotip */
 .logo {
   color: var(--accent-color);
-  font-family: raleway;
+  font-family: raleway, cursive;
 }
 
 /* site-nav */
@@ -30,6 +30,7 @@ ul {
 .site-nav .link:focus,
 .site-nav .link:active {
   color: var(--accent-color);
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link.current {
@@ -56,6 +57,7 @@ ul {
 
 .hero-title {
   color: #ffffff;
+  letter-spacing: 0.06em;
 }
 
 /* features list */
