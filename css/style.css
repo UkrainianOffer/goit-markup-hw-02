@@ -19,11 +19,18 @@ ul {
 .logo {
   color: var(--accent-color);
   font-family: raleway, cursive;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 /* site-nav */
 .site-nav .link {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
