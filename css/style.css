@@ -10,6 +10,7 @@ body {
   background-color: #ffffff;
   color: var(--primary-text-color);
   font-family: roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 ul {
   list-style: none;
@@ -20,8 +21,7 @@ ul {
   color: var(--accent-color);
   font-family: raleway, cursive;
   font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
+  line-height: 1.19;
 }
 
 /* site-nav */
@@ -45,12 +45,13 @@ ul {
 }
 
 /* contacts */
-.contacts {
-  color: var(--primary-text-color);
-}
 
 .contacts-list {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
 }
 
 .contacts-list:hover {
@@ -58,48 +59,90 @@ ul {
 }
 
 /* hero */
-.hero {
-  background-color: #2f303a;
-}
-
 .hero-title {
-  color: #ffffff;
+  color: var(--title-text-color);
+
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36px;
+  text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 /* features list */
 .features-list {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14px;
+  text-transform: uppercase;
+}
+
+.features-list .text {
+  font-size: 14px;
+  line-height: 1.71px;
 }
 
 /* section title*/
 .section-title {
   color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16px;
+  text-align: center;
 }
 
 /* team list */
 .team-list {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2px;
+}
+.team-list .specialty {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2px;
 }
 
 /* project-list */
 .project-list {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2px;
+  letter-spacing: 0.06em;
+}
+
+.project-list .filter {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87px;
 }
 
 /* button */
-.button {
+/* .button {
   color: var(--title-text-color);
   background-color: var(--primary-bgc-color);
-}
+} */
 
 .button.primary {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 .button.secondary {
   color: var(--title-text-color);
   background-color: var(--primary-bgc-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
 }
 .button.secondary:hover {
   color: var(--accent-color);
@@ -107,6 +150,9 @@ ul {
 
 .adress {
   color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71px;
 }
 
 .footer {
