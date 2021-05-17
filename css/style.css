@@ -18,14 +18,17 @@ ul {
 
 /* loogotip */
 .logo {
-  color: #000000;
-  font-family: raleway, cursive;
+  color: var(--accent-color);
+  font-family: raleway;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
 }
 .logo-color {
-  color: var(--accent-color);
+  color: #000000;
+}
+.logo-footer {
+  color: var(--primary-white-color);
 }
 
 /* site-nav */
@@ -156,9 +159,10 @@ ul {
   font-size: 16px;
   line-height: 26px;
 }
-.button.secondary:hover, 
-.button.secondary:focus, 
+.button.secondary:hover,
+.button.secondary:focus,
 .button.secondary:active {
+  color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
 .button-text:hover {
@@ -167,16 +171,12 @@ ul {
 
 .adress {
   color: #ffffff;
+  font-family: roboto;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.71px;
+  line-height: 24px;
 }
 
 .footer {
   background-color: #2f303a;
 }
-.site-nav .link:hover,
-.site-nav .link:focus,
-.site-nav .link:active {
-  color: var(--accent-color);
-  letter-spacing: 0.02em;
